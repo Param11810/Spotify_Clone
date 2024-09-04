@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+}
+.grid {
+    display: grid;
+  }
+  
+  .grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .sm\:grid-cols-5 {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .mt-10 {
+    margin-top: 2.5rem; /* 10 * 0.25rem (default spacing unit) */
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem; /* 4 * 0.25rem (default spacing unit) */
+  }
+  
+  .pl-2 {
+    padding-left: 0.5rem; /* 2 * 0.25rem (default spacing unit) */
+  }
+  
+  .text-\[\#a7a7a7\] {
+    color: #a7a7a7;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .sm\:block {
+    display: block;
+  }
+  
+  .w-4 {
+    width: 1rem; /* 4 * 0.25rem (default spacing unit) */
+  }
+  
+  .mr-4 {
+    margin-right: 1rem; /* 4 * 0.25rem (default spacing unit) */
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .hover\:bg-\[\#ffffff2b\]:hover {
+    background-color: rgba(255, 255, 255, 0.17);
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
